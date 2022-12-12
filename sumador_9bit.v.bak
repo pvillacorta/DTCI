@@ -1,0 +1,34 @@
+
+module sumador9bit(
+	output [8:0] suma,
+	output cout,
+	output sign,
+	input [8:0] a,b,
+	input cin);
+	
+	assign {cout,suma} = {a[8], a} + {b[8], b} + {9'b0,cin};
+	assign sign = suma[8];
+	
+endmodule
+
+
+
+
+module adder_carry(
+
+	input  wire [3:0] a, b,
+	output wire [3:0] sum,
+	output wire cout
+    );
+	 //declaracion de constantes
+	 localparam N=4,
+		    N1 = N-1;
+	 //declaracion de señales
+	 wire[N:0] sum_ext;
+	 
+	 //cuerpo del módulo
+	assign sum_ext = {1'b0, a} + {1'b0, b};
+	assign sum = sum_ext [N1:0];
+	assign cout= sum_ext [N];
+
+endmodule
