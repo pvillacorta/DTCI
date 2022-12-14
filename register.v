@@ -1,9 +1,9 @@
 module register (
 	input [7:0] in,
-	input load,
+	input load, clk,
 	output [7:0] out);
 
-	always @(load) begin
+	always @(posedge clk and load) begin
 		out = in;
 	end
 endmodule
