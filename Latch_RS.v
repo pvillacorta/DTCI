@@ -3,9 +3,9 @@ module latch_rs(
 	output reg Q);
 
   always @(R or S) begin
-    if (R)
+    if (R == 1)
       Q <= 0;
-    else if (S)
+    else if (S == 1)
       Q <= 1;
   end
 endmodule

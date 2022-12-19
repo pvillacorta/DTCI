@@ -8,7 +8,7 @@
 
 module shift_reg_right(data_out, data_in, load, shift, clear, clk);
 
-  output [23:0] data_out = 24'hX;
+  output [23:0] data_out;
   input [22:0] data_in;
   input load, shift, clear, clk;
   reg [23:0] d;
@@ -30,7 +30,7 @@ endmodule
 
 module shift_reg_bi(data_out, data_in, load, shift_r, shift_l, clk);
 
-  output [23:0] data_out = 24'hX;
+  output [23:0] data_out;
   input [23:0] data_in;
   input load, shift_r, shift_l, clk;
   reg [23:0] d;

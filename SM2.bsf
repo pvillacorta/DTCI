@@ -4,19 +4,20 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 1991-2013 Altera Corporation
-Your use of Altera Corporation's design tools, logic functions 
-and other software and tools, and its AMPP partner logic 
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Altera Program License 
-Subscription Agreement, Altera MegaCore Function License 
-Agreement, or other applicable license agreement, including, 
-without limitation, that your use is for the sole purpose of 
-programming logic devices manufactured by Altera and sold by 
-Altera or its authorized distributors.  Please refer to the 
-applicable agreement for further details.
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
 */
 (header "symbol" (version "1.1"))
 (symbol
@@ -138,65 +139,72 @@ applicable agreement for further details.
 	(port
 		(pt 200 192)
 		(output)
-		(text "COUNTU6" (rect 0 0 46 12)(font "Arial" ))
-		(text "COUNTU6" (rect 133 187 179 199)(font "Arial" ))
+		(text "FLAG_0" (rect 0 0 37 12)(font "Arial" ))
+		(text "FLAG_0" (rect 142 187 179 199)(font "Arial" ))
 		(line (pt 200 192)(pt 184 192)(line_width 1))
 	)
 	(port
 		(pt 200 208)
 		(output)
-		(text "FLAG_0" (rect 0 0 37 12)(font "Arial" ))
-		(text "FLAG_0" (rect 142 203 179 215)(font "Arial" ))
+		(text "FLAG_1" (rect 0 0 36 12)(font "Arial" ))
+		(text "FLAG_1" (rect 143 203 179 215)(font "Arial" ))
 		(line (pt 200 208)(pt 184 208)(line_width 1))
 	)
 	(port
 		(pt 200 224)
 		(output)
-		(text "FLAG_1" (rect 0 0 36 12)(font "Arial" ))
-		(text "FLAG_1" (rect 143 219 179 231)(font "Arial" ))
+		(text "ON21" (rect 0 0 22 12)(font "Arial" ))
+		(text "ON21" (rect 157 219 179 231)(font "Arial" ))
 		(line (pt 200 224)(pt 184 224)(line_width 1))
 	)
 	(port
 		(pt 200 240)
 		(output)
-		(text "ON21" (rect 0 0 22 12)(font "Arial" ))
-		(text "ON21" (rect 157 235 179 247)(font "Arial" ))
+		(text "ON22" (rect 0 0 23 12)(font "Arial" ))
+		(text "ON22" (rect 156 235 179 247)(font "Arial" ))
 		(line (pt 200 240)(pt 184 240)(line_width 1))
 	)
 	(port
 		(pt 200 256)
 		(output)
-		(text "ON22" (rect 0 0 23 12)(font "Arial" ))
-		(text "ON22" (rect 156 251 179 263)(font "Arial" ))
+		(text "SHIFTR3" (rect 0 0 40 12)(font "Arial" ))
+		(text "SHIFTR3" (rect 139 251 179 263)(font "Arial" ))
 		(line (pt 200 256)(pt 184 256)(line_width 1))
 	)
 	(port
 		(pt 200 272)
 		(output)
-		(text "SHIFTR3" (rect 0 0 40 12)(font "Arial" ))
-		(text "SHIFTR3" (rect 139 267 179 279)(font "Arial" ))
+		(text "SHIFTR4" (rect 0 0 41 12)(font "Arial" ))
+		(text "SHIFTR4" (rect 138 267 179 279)(font "Arial" ))
 		(line (pt 200 272)(pt 184 272)(line_width 1))
 	)
 	(port
 		(pt 200 288)
 		(output)
-		(text "SHIFTR4" (rect 0 0 41 12)(font "Arial" ))
-		(text "SHIFTR4" (rect 138 283 179 295)(font "Arial" ))
+		(text "SHIFTR5" (rect 0 0 40 12)(font "Arial" ))
+		(text "SHIFTR5" (rect 139 283 179 295)(font "Arial" ))
 		(line (pt 200 288)(pt 184 288)(line_width 1))
 	)
 	(port
 		(pt 200 304)
 		(output)
-		(text "SHIFTR5" (rect 0 0 40 12)(font "Arial" ))
-		(text "SHIFTR5" (rect 139 299 179 311)(font "Arial" ))
+		(text "DONE" (rect 0 0 28 12)(font "Arial" ))
+		(text "DONE" (rect 151 299 179 311)(font "Arial" ))
 		(line (pt 200 304)(pt 184 304)(line_width 1))
 	)
 	(port
 		(pt 200 320)
 		(output)
-		(text "DONE" (rect 0 0 28 12)(font "Arial" ))
-		(text "DONE" (rect 151 315 179 327)(font "Arial" ))
+		(text "LOAD7" (rect 0 0 33 12)(font "Arial" ))
+		(text "LOAD7" (rect 146 315 179 327)(font "Arial" ))
 		(line (pt 200 320)(pt 184 320)(line_width 1))
+	)
+	(port
+		(pt 200 336)
+		(output)
+		(text "COUNTU7" (rect 0 0 46 12)(font "Arial" ))
+		(text "COUNTU7" (rect 133 331 179 343)(font "Arial" ))
+		(line (pt 200 336)(pt 184 336)(line_width 1))
 	)
 	(parameter
 		"S0"

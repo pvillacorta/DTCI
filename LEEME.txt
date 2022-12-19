@@ -1,0 +1,2 @@
+La máquina de estados SM2 es la adecuada para el primer DATAPATH
+La máquina de estados SM1 es la adecuada para el OTRO DATAPATH
