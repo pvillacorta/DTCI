@@ -6,7 +6,7 @@ module sumador9bit(
 	input [8:0] a,b,
 	input cin);
 	
-	assign {cout,sign,suma} = {a[8], a} + {b[8], b} + {9'b0,cin};
+	assign {cout,sign,suma} = a + b + cin;
 	
 endmodule
 
