@@ -1,0 +1,13 @@
+
+State Machine - |DTCI|SM2:inst20|fstate
+Name fstate.S9 fstate.S8 fstate.S7 fstate.S6 fstate.S5 fstate.S4 fstate.S3 fstate.S2 fstate.S1 fstate.S0 
+fstate.S0 0 0 0 0 0 0 0 0 0 0 
+fstate.S1 0 0 0 0 0 0 0 0 1 1 
+fstate.S2 0 0 0 0 0 0 0 1 0 1 
+fstate.S3 0 0 0 0 0 0 1 0 0 1 
+fstate.S4 0 0 0 0 0 1 0 0 0 1 
+fstate.S5 0 0 0 0 1 0 0 0 0 1 
+fstate.S6 0 0 0 1 0 0 0 0 0 1 
+fstate.S7 0 0 1 0 0 0 0 0 0 1 
+fstate.S8 0 1 0 0 0 0 0 0 0 1 
+fstate.S9 1 0 0 0 0 0 0 0 0 1 
