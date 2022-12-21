@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/1L020/Desktop/DTCI-main/simulation/qsim
+vDTCI
+Z1 !s110 1671614798
+!i10b 1
+!s100 jJh@N4;MDj^CEg?XYnFRO2
+IRNe[<:0F3joW]4znjzi_;1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1671614796
+8DTCI.vo
+FDTCI.vo
+L0 32
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1671614798.000000
+!s107 DTCI.vo|
+!s90 -work|work|DTCI.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@d@t@c@i
+vDTCI_vlg_vec_tst
+R1
+!i10b 1
+!s100 o7SdMldU2nnIdlVTWRP_m0
+I^7mzGGBWHZ0kHjgdF[nR03
+R2
+R0
+w1671614795
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6
+n@d@t@c@i_vlg_vec_tst

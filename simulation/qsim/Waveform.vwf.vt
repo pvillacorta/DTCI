@@ -1,0 +1,397 @@
+// Copyright (C) 2019  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "12/21/2022 10:26:35"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          DTCI
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module DTCI_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg clk;
+reg [7:0] Ex;
+reg [7:0] Ey;
+reg [22:0] Fx;
+reg [22:0] Fy;
+reg gnd;
+reg reset;
+// wires                                               
+wire [7:0] Ediff;
+wire [7:0] REz;
+wire [22:0] RFz;
+wire shiftR5;
+
+// assign statements (if any)                          
+DTCI i1 (
+// port map - connection between master ports and signals/registers   
+	.clk(clk),
+	.Ediff(Ediff),
+	.Ex(Ex),
+	.Ey(Ey),
+	.Fx(Fx),
+	.Fy(Fy),
+	.\gnd (gnd),
+	.reset(reset),
+	.REz(REz),
+	.RFz(RFz),
+	.shiftR5(shiftR5)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+// Ex[ 7 ]
+initial
+begin
+	Ex[7] = 1'b0;
+end 
+// Ex[ 6 ]
+initial
+begin
+	Ex[6] = 1'b1;
+end 
+// Ex[ 5 ]
+initial
+begin
+	Ex[5] = 1'b1;
+end 
+// Ex[ 4 ]
+initial
+begin
+	Ex[4] = 1'b0;
+end 
+// Ex[ 3 ]
+initial
+begin
+	Ex[3] = 1'b0;
+end 
+// Ex[ 2 ]
+initial
+begin
+	Ex[2] = 1'b1;
+end 
+// Ex[ 1 ]
+initial
+begin
+	Ex[1] = 1'b0;
+end 
+// Ex[ 0 ]
+initial
+begin
+	Ex[0] = 1'b0;
+end 
+// Ey[ 7 ]
+initial
+begin
+	Ey[7] = 1'b1;
+end 
+// Ey[ 6 ]
+initial
+begin
+	Ey[6] = 1'b0;
+end 
+// Ey[ 5 ]
+initial
+begin
+	Ey[5] = 1'b0;
+end 
+// Ey[ 4 ]
+initial
+begin
+	Ey[4] = 1'b0;
+end 
+// Ey[ 3 ]
+initial
+begin
+	Ey[3] = 1'b0;
+end 
+// Ey[ 2 ]
+initial
+begin
+	Ey[2] = 1'b0;
+end 
+// Ey[ 1 ]
+initial
+begin
+	Ey[1] = 1'b1;
+end 
+// Ey[ 0 ]
+initial
+begin
+	Ey[0] = 1'b1;
+end 
+// Fx[ 22 ]
+initial
+begin
+	Fx[22] = 1'b1;
+end 
+// Fx[ 21 ]
+initial
+begin
+	Fx[21] = 1'b0;
+end 
+// Fx[ 20 ]
+initial
+begin
+	Fx[20] = 1'b0;
+end 
+// Fx[ 19 ]
+initial
+begin
+	Fx[19] = 1'b1;
+end 
+// Fx[ 18 ]
+initial
+begin
+	Fx[18] = 1'b1;
+end 
+// Fx[ 17 ]
+initial
+begin
+	Fx[17] = 1'b1;
+end 
+// Fx[ 16 ]
+initial
+begin
+	Fx[16] = 1'b0;
+end 
+// Fx[ 15 ]
+initial
+begin
+	Fx[15] = 1'b0;
+end 
+// Fx[ 14 ]
+initial
+begin
+	Fx[14] = 1'b1;
+end 
+// Fx[ 13 ]
+initial
+begin
+	Fx[13] = 1'b1;
+end 
+// Fx[ 12 ]
+initial
+begin
+	Fx[12] = 1'b1;
+end 
+// Fx[ 11 ]
+initial
+begin
+	Fx[11] = 1'b0;
+end 
+// Fx[ 10 ]
+initial
+begin
+	Fx[10] = 1'b0;
+end 
+// Fx[ 9 ]
+initial
+begin
+	Fx[9] = 1'b0;
+end 
+// Fx[ 8 ]
+initial
+begin
+	Fx[8] = 1'b0;
+end 
+// Fx[ 7 ]
+initial
+begin
+	Fx[7] = 1'b0;
+end 
+// Fx[ 6 ]
+initial
+begin
+	Fx[6] = 1'b0;
+end 
+// Fx[ 5 ]
+initial
+begin
+	Fx[5] = 1'b1;
+end 
+// Fx[ 4 ]
+initial
+begin
+	Fx[4] = 1'b1;
+end 
+// Fx[ 3 ]
+initial
+begin
+	Fx[3] = 1'b1;
+end 
+// Fx[ 2 ]
+initial
+begin
+	Fx[2] = 1'b0;
+end 
+// Fx[ 1 ]
+initial
+begin
+	Fx[1] = 1'b1;
+end 
+// Fx[ 0 ]
+initial
+begin
+	Fx[0] = 1'b0;
+end 
+// Fy[ 22 ]
+initial
+begin
+	Fy[22] = 1'b1;
+end 
+// Fy[ 21 ]
+initial
+begin
+	Fy[21] = 1'b0;
+end 
+// Fy[ 20 ]
+initial
+begin
+	Fy[20] = 1'b0;
+end 
+// Fy[ 19 ]
+initial
+begin
+	Fy[19] = 1'b1;
+end 
+// Fy[ 18 ]
+initial
+begin
+	Fy[18] = 1'b0;
+end 
+// Fy[ 17 ]
+initial
+begin
+	Fy[17] = 1'b1;
+end 
+// Fy[ 16 ]
+initial
+begin
+	Fy[16] = 1'b0;
+end 
+// Fy[ 15 ]
+initial
+begin
+	Fy[15] = 1'b1;
+end 
+// Fy[ 14 ]
+initial
+begin
+	Fy[14] = 1'b1;
+end 
+// Fy[ 13 ]
+initial
+begin
+	Fy[13] = 1'b1;
+end 
+// Fy[ 12 ]
+initial
+begin
+	Fy[12] = 1'b0;
+end 
+// Fy[ 11 ]
+initial
+begin
+	Fy[11] = 1'b0;
+end 
+// Fy[ 10 ]
+initial
+begin
+	Fy[10] = 1'b0;
+end 
+// Fy[ 9 ]
+initial
+begin
+	Fy[9] = 1'b0;
+end 
+// Fy[ 8 ]
+initial
+begin
+	Fy[8] = 1'b1;
+end 
+// Fy[ 7 ]
+initial
+begin
+	Fy[7] = 1'b0;
+end 
+// Fy[ 6 ]
+initial
+begin
+	Fy[6] = 1'b1;
+end 
+// Fy[ 5 ]
+initial
+begin
+	Fy[5] = 1'b0;
+end 
+// Fy[ 4 ]
+initial
+begin
+	Fy[4] = 1'b0;
+end 
+// Fy[ 3 ]
+initial
+begin
+	Fy[3] = 1'b0;
+end 
+// Fy[ 2 ]
+initial
+begin
+	Fy[2] = 1'b1;
+end 
+// Fy[ 1 ]
+initial
+begin
+	Fy[1] = 1'b1;
+end 
+// Fy[ 0 ]
+initial
+begin
+	Fy[0] = 1'b1;
+end 
+
+// clk
+always
+begin
+	clk = 1'b0;
+	clk = #10000 1'b1;
+	#10000;
+end 
+
+// gnd
+initial
+begin
+	gnd = 1'b0;
+end 
+
+// reset
+initial
+begin
+	reset = 1'b1;
+	reset = #220000 1'b0;
+end 
+endmodule
+
