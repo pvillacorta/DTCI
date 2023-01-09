@@ -1,8 +1,7 @@
 module latch_rs(
 	input R, S, 
-	output Q);
+	output reg Q);
 
-  reg Q;
   always @(R or S) begin
     if (R == 1)
       Q <= 0;
